@@ -18,7 +18,7 @@ LAST_LETTER.addEventListener("animationend", () => {
     .then(() => {
       setTimeout(() => {
         CAKE.classList.add("cake-anime");
-      }, 1000);
+      }, 2000);
     })
     .then(() => {
       setTimeout(() => {
