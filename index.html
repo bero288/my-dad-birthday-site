@@ -3,11 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="js/app.js" defer></script>
     <title>dad's birthday</title>
   </head>
   <body>
+    <audio
+      class="song"
+      src="sound/Best Happy Birthday To You Happy Birthday Songs 2020 (192 kbps).mp3"
+    ></audio>
+    <div class="cake-container">
+      <img src="imgs/Cartoon_Happy_Birthday_Cake.svg" />
+    </div>
     <svg
       class="logo"
       width="90%"
@@ -184,11 +192,34 @@
         mask="url(#path-1-outside-1)"
       />
       <path
+        class="last-letter"
         d="M1590.15 74.84C1590.15 66.776 1591.78 59.72 1595.05 53.672C1598.31 47.528 1602.77 42.776 1608.44 39.416C1614.2 36.056 1620.63 34.376 1627.73 34.376C1633.88 34.376 1639.59 35.816 1644.87 38.696C1650.15 41.48 1654.18 45.176 1656.97 49.784V8.02401H1670.21V114.584H1656.97V99.752C1654.37 104.456 1650.53 108.344 1645.45 111.416C1640.36 114.392 1634.41 115.88 1627.59 115.88C1620.58 115.88 1614.2 114.152 1608.44 110.696C1602.77 107.24 1598.31 102.392 1595.05 96.152C1591.78 89.912 1590.15 82.808 1590.15 74.84ZM1656.97 74.984C1656.97 69.032 1655.77 63.848 1653.37 59.432C1650.97 55.016 1647.7 51.656 1643.57 49.352C1639.54 46.952 1635.08 45.752 1630.18 45.752C1625.29 45.752 1620.82 46.904 1616.79 49.208C1612.76 51.512 1609.54 54.872 1607.14 59.288C1604.74 63.704 1603.54 68.888 1603.54 74.84C1603.54 80.888 1604.74 86.168 1607.14 90.68C1609.54 95.096 1612.76 98.504 1616.79 100.904C1620.82 103.208 1625.29 104.36 1630.18 104.36C1635.08 104.36 1639.54 103.208 1643.57 100.904C1647.7 98.504 1650.97 95.096 1653.37 90.68C1655.77 86.168 1656.97 80.936 1656.97 74.984Z"
         stroke="white"
         stroke-width="10"
         mask="url(#path-1-outside-1)"
       />
     </svg>
+    <svg class="ballons" width="360" height="500">
+      <circle r="100" cx="140" cy="170" fill="crimson" />
+      <polygon points="140 270 130 280 150 280" fill="crimson" />
+      <polyline
+        points="140,275 150,300 135,330 150,360 135,390 150,420 "
+        stroke="crimson"
+        stroke-width="1px"
+        fill="none"
+      />
+      <ellipse rx="60" ry="80" cx="250" cy="210" fill="gold" />
+      <polyline
+        points="250,290 260,320 245,350 260,380 245,410 260,440 "
+        stroke="crimson"
+        stroke-width="1px"
+        fill="none"
+      />
+      <polygon points="250 290 240 300 260 300" fill="gold" />
+    </svg>
+    <audio
+      class="fire-sound"
+      src="https://www.fesliyanstudios.com/play-mp3/6964"
+    ></audio>
   </body>
 </html>
